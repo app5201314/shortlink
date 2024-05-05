@@ -11,7 +11,7 @@ spring:
     redis:
       host: 127.0.0.1
       port: 6379
-#      password: aztl5201314
+#      password: lcx666
   mvc:
     view:
       prefix: /templates/
@@ -32,7 +32,6 @@ short-link:
       enable: true
       names: '知乎,掘金,博客园,百度'
       details:
-        - nageoffer.com
         - zhihu.com
         - juejin.cn
         - cnblogs.com
