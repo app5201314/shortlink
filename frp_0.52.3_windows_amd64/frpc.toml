@@ -1,0 +1,23 @@
+serverAddr = "20.2.152.85"
+serverPort = 7000
+auth.method = "token"
+auth.token = "lcx666"
+webServer.addr = "localhost"
+webServer.port = 1314
+webServer.user = "admin"
+webServer.password = "lcx666"
+loginFailExit = false
+
+[[proxies]]
+name = "nginx"
+type = "tcp"
+localIP = "localhost"
+localPort = 5173
+remotePort = 8080
+
+[[proxies]]
+name = "project"
+type = "tcp"
+localIP = "localhost"
+localPort = 8001
+remotePort = 8082

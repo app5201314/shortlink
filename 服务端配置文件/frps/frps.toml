@@ -1,0 +1,10 @@
+bindPort = 7000						# 服务端监听端口
+vhostHTTPPort = 8000				# 用于反向代理HTTP主机时使用
+auth.method = "token"
+auth.token = "lcx666"
+
+# 后台管理面板配置
+webServer.port = 7500				# 后台面板端口号
+webServer.addr = "0.0.0.0"			# 后台管理地址
+webServer.user = "admin"			# 后台管理员账号
+webServer.password = "pwd"			# 后台管理员密码
